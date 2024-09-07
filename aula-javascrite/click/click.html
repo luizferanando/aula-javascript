@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento clck</title>
+</head>
+<body>
+    <button id="meuBotao">clique em Mim!</button>
+    <p id ="mensagem"></p>
+    <script>
+      document.getElementById("meuBotao").addEventListener("click",
+      function () {
+        document.getElementById("mensagem").innerText = "Botão foi clicado"
+      });
+   
+   </script>
+</body>
+</html>
